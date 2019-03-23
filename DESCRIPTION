@@ -1,13 +1,19 @@
 Package: foofactors
-Title: What the Package Does (One Line, Title Case)
+Title: Make Factors Less Aggravating
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+    person(given = "Yunlong",
+           family = "GUO",
+           email = "guoyunlong10@gmail.com",
+           role = c("aut", "cre"))
+Description: Factors have driven people to extreme measures, like ordering
+    custom conference ribbons and laptop stickers to express how HELLO we
+    feel about stringsAsFactors. And yet, sometimes you need them. Can they
+    be made less maddening? Let's find out.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Suggests: 
+    testthat
+Imports: 
+    forcats
